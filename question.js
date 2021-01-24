@@ -3,13 +3,13 @@
 //Array of Objects
 const quiz = [
 {
- q:'Which one is not a financial statement?',
- options:['Income Statement','Cashflow Statement','Balance Sheet','Profit and Gains Statement'],
+ q:'Is Tony a Soy Boy?',
+ options:['Yes','Not Yet','Almost','Getting There'],
  answer:0
 },
 {
-  q:'What color is a bannana ?',
-  options:['red','yellow','white','blue'],
+  q:'What color is Tony doing now?',
+  options:['Crying','Being Sad','Crying while Cooking','Crying in the Rain'],
   answer:1
  },
  {
