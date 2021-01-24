@@ -3,8 +3,8 @@
 //Array of Objects
 const quiz = [
 {
- q:'Is Tony a Soy Boy?',
- options:['Yes','Not Yet','Almost','Getting There'],
+ q:'What is not part of the 4Cs of a Diamond?',
+ options:['Condition','Color','Clarity','Cut'],
  answer:0
 },
 {
