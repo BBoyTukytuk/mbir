@@ -3,13 +3,13 @@
 //Array of Objects
 const quiz = [
 {
- q:'What is not part of the 4Cs of a Diamond?',
- options:['Condition','Color','Clarity','Cut'],
+ q:'Which one is not a financial statement?',
+ options:['Income Statement','Cashflow Statement','Balance Sheet','Profit and Gains Statement'],
  answer:0
 },
 {
-  q:'How Many pull ups can Alex do?',
-  options:['10','130','50','80'],
+  q:'What color is a bannana ?',
+  options:['red','yellow','white','blue'],
   answer:1
  },
  {
@@ -18,14 +18,9 @@ const quiz = [
   answer:0
  },
  {
-  q:'同社の顧客の1人が、危機が収まったらすぐに契約するはずだった重要な取引を躊躇しています。その取引は、あなたの事務所のビジネスを改善し、良いニュースをもたらすものと期待されていた。危機の最悪の事態が終わったにもかかわらず、クライアントは考え直しているようで、あなたが以前に合意していたことを躊躇しているようです。これは重要なプロジェクトであり、必死になってビジネスを勝ち取りたいと思っています。あなたは何をしますか？?',
-  options:[
-   '割引を提供することで、クライアントが「はい」と言いやすいようにしましょう。危機はビジネスにとって困難なものでしたが、あなたは関係を大切にし、パートナーシップに長期的な可能性を見出しています。そのため、契約を勝ち取るために割引を提供します。
-',
-   'これは、先に困難があることを示すシグナルとして受け止めてください。セクターの回復がクライシスそのものよりも遅いかもしれないことを示唆しています。このような不確実な経営状況の中で会社を守るために、コスト削減の取り組みを実施します。
-',
-   'ゼロから提案を再構築します。クロスファンクショナルチームを招集し、このクライアントを取り込むための異なるアプローチをブレインストーミングしてみましょう。チームに依頼して、クライアントの当面のニーズに対応した新しい提案書を作成してもらいましょう。
-'],answer:2
+  q:'What time of the day do we have breakfast ?',
+  options:['In the afternoon','In the evening', 'In the morning'],
+  answer:2
  },
  {
   q:'What is 22 + 6?',
