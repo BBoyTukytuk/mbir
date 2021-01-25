@@ -8,8 +8,8 @@ const quiz = [
  answer:0
 },
 {
-  q:'What color is Tony doing now?',
-  options:['Crying','Being Sad','Crying while Cooking','Crying in the Rain'],
+  q:'How Many pull ups can Alex do?',
+  options:['10','130','50','80'],
   answer:1
  },
  {
