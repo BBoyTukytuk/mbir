@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+    <script type="text/javascript">
+    (function() {
+        emailjs.init("user_St3iP7NjtEKBn68bMclv9");
+})();
+    </script>
+</head>
+<body>
+    
+<div class="home-box custom-box ">
+    <h1>MBIR</h1>
+    <p>The MBIR should be inherently tied to your Leadership Brand.    </p>
+        <p>It should be focused around a shift you want to make that gets you closer to the reputation you want to build. </p>       
+    <button type="button" class="btn"onclick= "goToContact()">Start MBIR</button>
+
+</div>
+
+<div class="quiz-box custom-box hide">
+    <div class="question-number">
+    </div>
+    <div class="question-text">
+    </div>
+    <div class="option-container">
+    </div>
+    <div class="next-question-btn">
+        <button type="button" class="btn" onclick="next()">Next</button>
+    </div>
+    <div class="answers-indicator">
+    </div>
+</div>
+
+<div class="contact-box custom-box hide">
+    <h1>Create MBIR</h1>
+    <h2>Enter the information into the text boxes 1 to 6</h2>
+<div class="cell">
+
+<img src="https://user-images.githubusercontent.com/63485300/107346825-7f06e200-6b08-11eb-9e5b-17f1bec65465.png" alt="">
+
+</div>
+
+<div class="feedback-form">
+<form>
+    <label>1.Name</label><br>
+    <textarea rows="1" cols="20" id="toName" placeholder="Enter Name"></textarea>
+</form><br>
+<form>
+    <label>2.Email</label><br>
+    <textarea rows="1" cols="20" id="fromName" placeholder="Enter Email"></textarea>
+</form><br>
+<form>
+    <label>3.Mindset</label><br>
+    <textarea rows="3" cols="30" id="toMindset" placeholder="Enter your Mindset"></textarea>
+</form><br>
+<form>
+    <label>4.Behavior</label><br>
+    <textarea rows="3" cols="30" id="toBehavior" placeholder="Enter your Behavior" ></textarea>
+</form><br>
+<form>
+    <label>5.Impact</label><br>
+    <textarea rows="3" cols="30" id="toImpact" placeholder="Enter your Impact" ></textarea>
+</form><br>
+<form>
+    <label>6.Result</label><br>
+    <textarea rows="3" cols="30" id="toResult" placeholder="Enter your Result" ></textarea>
+</form><br>
+</div> 
+    <button type="button" class="btn"onclick="sendMail()">Finish</button>
+    <button type="button" class="btn" onclick="goToFinish()">Next</button>
+</div>
+
+<div class="result-box custom-box hide">
+    <h1>Result</h1>
+    <table>
+        <tr>
+            <td>Total Question</td>
+            <td><span class="total-question"></span></td>
+        </tr>
+        <tr>
+            <td>Attempt</td>
+            <td><span class="total-attempt"></span></td>
+        </tr>
+        <tr>
+            <td>Correct</td>
+            <td><span class="total-correct"></span></td>
+        </tr>
+        <tr>
+            <td>Wrong</td>
+            <td><span class="total-wrong"></span></td>
+        </tr>
+        <tr>
+            <td>Percentage</td>
+            <td><span class="percentage"></span></td>
+        </tr>
+        <tr>
+            <td>Your Total Score</td>
+            <td><span class="total-score"></span></td>
+        </tr>
+    </table>
+    <button type="button" class="btn" onclick="tryAgainQuiz()">Try Again</button>
+    <button type="button" class="btn"onclick= "goToContact()">Contact</button>
+</div>
+
+<div class="finish-box custom-box hide">
+    <h1>Thank you and you will recive a confirmation email with your MBIR soon</h1>    
+    <h2>Please feel free to close the window or return to MBIR</h2>
+
+    <button type="button" class="btn"onclick= "goToContact()">Return to MBIR</button>
+
+</div>
+
+<script src="question.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
